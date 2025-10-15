@@ -11,7 +11,6 @@ class TodoModel(BaseModel):
     created_at: Union[datetime, None] = datetime.utcnow()
 
 
-
 def TodoHelper(todo):
     return {
         "id": str(todo["_id"]),
